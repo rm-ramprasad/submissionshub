@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "start pac code run && vite",
+    "prebuild": "node -e \"const fs=require('fs');const f='src/generated/services/MicrosoftDataverseService.ts';fs.writeFileSync(f,fs.readFileSync(f,'utf8').replaceAll('MSCRM.IncludeMipSensitivityLabel','MSCRM_IncludeMipSensitivityLabel'))\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
