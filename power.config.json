@@ -1,0 +1,13 @@
+{
+  "appId": "a81ad9db-7619-4b85-a12a-2e344ead4bc6",
+  "appDisplayName": "MyFirstCodeApp",
+  "description": "My First Code App",
+  "environmentId": "24636fb5-c1ec-ee3b-a1d8-f54245774edd",
+  "buildPath": "dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:5173",
+  "region": "prod",
+  "connectionReferences": {},
+  "databaseReferences": {}
+}
